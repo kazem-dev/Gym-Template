@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services - Gymlife</title>
+
+  
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header-section {
+      background-color: #333;
+      padding: 10px 0;
+    }
+    .header-section .logo img {
+      width: 150px;
+    }
+    .header-section nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+    }
+    .header-section nav ul li {
+      margin: 0 15px;
+    }
+    .header-section nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .header-section nav ul li a:hover {
+      color: #f36100;
+    }
+
+    /* Hero Section */
+    .services-hero {
+      background: url(https://t4.ftcdn.net/jpg/03/50/81/89/360_F_350818949_lJTfzSTDr79e9Kn55PUVZjN19ct20uGc.jpg) center/cover no-repeat;
+      height: 60vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .services-hero h1 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    /* Services Section */
+    .services-section {
+      padding: 60px 0;
+      background-color: #fff;
+    }
+    .services-section h2 {
+      text-align: center;
+      color: #f36100;
+      margin-bottom: 50px;
+    }
+    .services-cards {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .service-card {
+      background-color: #f4f4f4;
+      padding: 20px;
+      width: 30%;
+      margin-bottom: 30px;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-10px);
+    }
+    .service-card i {
+      font-size: 3rem;
+      color: #f36100;
+      margin-bottom: 20px;
+    }
+    .service-card h3 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .service-card p {
+      color: #777;
+    }
+
+    /* Footer */
+    .site-footer {
+      background-color: #333;
+      color: #ccc;
+      padding: 30px 0;
+      text-align: center;
+    }
+    .site-footer a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .site-footer a:hover {
+      color: #f36100;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-section">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="https://themewagon.github.io/gymlife/img/logo.png" alt="logo">
+        </a>
+      </div>
+      <nav class="navbar">
+        <ul>
+             <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="our-team.html">Our Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="services-hero">
+    <div class="container">
+      <h1>Our Services</h1>
+      <p>We offer a variety of services to help you achieve your fitness goals.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section">
+    <div class="container">
+      <h2>What We Offer</h2>
+      <div class="services-cards">
+        <div class="service-card">
+          <i class="fa-solid fa-dumbbell"></i>
+          <h3>Personal Training</h3>
+          <p>One-on-one training with our certified trainers to reach your fitness goals faster.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-heart"></i>
+          <h3>Nutrition Coaching</h3>
+          <p>Guidance on diet and nutrition to complement your fitness journey and help you feel your best.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-people-group"></i>
+          <h3>Group Classes</h3>
+          <p>Join our group classes for a fun and motivating experience with others in the community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2025 Gymlife. All rights reserved. Designed by Mazen.</p>
+  </footer>
+
+</body>
+</html>

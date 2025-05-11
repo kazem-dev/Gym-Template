@@ -1,0 +1,258 @@
+.hero-header-section {
+  background: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 30px 0 100px;
+  color: white;
+}
+
+.header-section {
+  background-color: transparent;
+  padding-bottom: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #f36100;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+.top-option i {
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.top-option i:hover {
+  color: #f36100;
+}
+
+.hi-text {
+  margin-top: 80px;
+}
+
+.hi-text span {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #f36100;
+}
+
+.hi-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.hi-text strong {
+  color: #f36100;
+}
+
+.services-section {
+  background-color: #111111;
+  color: #fff;
+}
+
+.section-title h2 {
+  color: #f36100;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  color: #ccc;
+  font-size: 18px;
+}
+
+.service-box {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.service-box:hover {
+  background-color: #f36100;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.service-box i {
+  color: #f36100;
+  transition: color 0.3s;
+}
+
+.service-box:hover i {
+  color: #fff;
+}
+
+.service-box h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.timetable-section {
+  background-color: #0e0e0e;
+  color: #fff;
+}
+
+.timetable-section .section-title h2 {
+  color: #f36100;
+  font-size: 32px;
+}
+
+.timetable-section .section-title p {
+  color: #ccc;
+}
+
+.schedule-table table {
+  border-color: #333;
+}
+
+.schedule-table th,
+.schedule-table td {
+  background-color: #1a1a1a;
+  border-color: #333;
+}
+
+.schedule-table td:hover {
+  background-color: #f36100;
+  color: #fff;
+  cursor: pointer;
+}
+
+.team-section {
+  background-color: #111;
+  color: #fff;
+}
+
+.team-section .section-title h2 {
+  color: #f36100;
+  font-size: 32px;
+}
+
+.team-section .section-title p {
+  color: #ccc;
+}
+
+.team-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.team-card h4 {
+  color: #f36100;
+  margin-top: 15px;
+}
+
+.team-card p {
+  color: #ccc;
+}
+
+.pricing-section {
+  background-color: #0e0e0e;
+  color: #fff;
+}
+
+.pricing-section .section-title h2 {
+  color: #f36100;
+  font-size: 32px;
+}
+
+.pricing-card {
+  background-color: #1a1a1a;
+  border: 2px solid #333;
+  padding: 30px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.pricing-card.active {
+  border-color: #f36100;
+  box-shadow: 0 0 15px rgba(243, 97, 0, 0.4);
+}
+
+.pricing-card h3 {
+  color: #f36100;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.pricing-card .price {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.pricing-card .price span {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #333;
+}
+
+.pricing-card .btn {
+  background-color: #f36100;
+  border: none;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.pricing-card .btn:hover {
+  background-color: #d64e00;
+}
+li{
+    color: white;
+    list-style: none;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3 ease;
+}
+li a:hover{
+    color: #f36100;
+}

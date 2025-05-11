@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Team - Gymlife</title>
+
+  
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header-section {
+      background-color: #333;
+      padding: 10px 0;
+    }
+    .header-section .logo img {
+      width: 150px;
+    }
+    .header-section nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+    }
+    .header-section nav ul li {
+      margin: 0 15px;
+    }
+    .header-section nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .header-section nav ul li a:hover {
+      color: #f36100;
+    }
+
+    /* Hero Section */
+    .team-hero {
+      background: url(https://www.shutterstock.com/image-illustration/3d-rendering-black-dumbbells-on-260nw-1956616558.jpg) center/cover no-repeat;
+      height: 60vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .team-hero h1 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    /* Team Section */
+    .team-section {
+      padding: 60px 0;
+      background-color: #fff;
+    }
+    .team-section h2 {
+      text-align: center;
+      color: #f36100;
+      margin-bottom: 50px;
+    }
+    .team-members {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .team-member {
+      background-color: #f4f4f4;
+      padding: 20px;
+      width: 30%;
+      margin-bottom: 30px;
+      text-align: center;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .team-member:hover {
+      transform: translateY(-10px);
+    }
+    .team-member img {
+      width: 100%;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    .team-member h3 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .team-member p {
+      color: #777;
+      margin-bottom: 15px;
+    }
+    .team-member .social-icons a {
+      color: #f36100;
+      margin: 0 5px;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+    .team-member .social-icons a:hover {
+      color: #333;
+    }
+
+    /* Footer */
+    .site-footer {
+      background-color: #333;
+      color: #ccc;
+      padding: 30px 0;
+      text-align: center;
+    }
+    .site-footer a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .site-footer a:hover {
+      color: #f36100;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header-section">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="https://themewagon.github.io/gymlife/img/logo.png" alt="logo">
+        </a>
+      </div>
+      <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="our-team.html">Our Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="team-hero">
+    <div class="container">
+      <h1>Meet Our Team</h1>
+      <p>We are a dedicated team of fitness professionals committed to helping you achieve your fitness goals.</p>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-section">
+    <div class="container">
+      <h2>Our Expert Trainers</h2>
+      <div class="team-members">
+        <div class="team-member">
+          <img src="https://themewagon.github.io/gymlife/img/team/team-1.jpg" alt="team member">
+          <h3>Sara Doe</h3>
+          <p>Fitness Coach & Personal Trainer</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="team-member">
+          <img src="https://themewagon.github.io/gymlife/img/team/team-2.jpg" alt="team member">
+          <h3>Jane Smith</h3>
+          <p>Nutritionist & Wellness Expert</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="team-member">
+          <img src="https://themewagon.github.io/gymlife/img/team/team-3.jpg" alt="team member">
+          <h3>Michael Lee</h3>
+          <p>Yoga & Mindfulness Instructor</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2025 Gymlife. All rights reserved. Designed by Mazen.</p>
+  </footer>
+
+</body>
+</html>
